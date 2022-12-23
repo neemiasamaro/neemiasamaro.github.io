@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: #7c3d32 !important;
+}
+
+.navbar-bg{
+    height: 100%;
+    justify-content: center;
+}
+
+.nav-item{
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+.navbar-collapse{
+    margin-bottom: 30px;
+}
+
+#titulo{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.brigadeiro-foto{
+    width: 300px;
+    height: 300px;
+}
+
+.imagem-brigadeiro{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.first-section{
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 90%;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
