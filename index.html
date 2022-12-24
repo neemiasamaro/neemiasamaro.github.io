@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,76 +10,277 @@
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="./logo.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-bg navbar-expand-lg navbar-dark bg-light"
-            style="padding-left: 5rem;padding-right: 5rem; background-color: transparent !important;">
-            <a class="navbar-brand" href="#"><img src="./logo.png" width="150" /></a>
-        </nav>
-    </header>
-    <main>
-        <section class="first-section container">
-            <div class="row">
-                <div class="col-sm-6 col-md-12">
-                    <h1 id="titulo">Nossos Produtos</h1>
-                </div>
-                <div class="col-sm-4 col-md-12">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light container-navbar container"
-                        style="background-color: transparent !important;">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+        <nav class="navbar navbar-bg navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#"><img src="./logo.png" width="105" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list" style="font-size: 2.25rem;color: white"></i>
+            </button>
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mx-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Balas</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Bolos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Bombons</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Brigadeiros</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Kits</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Outros</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Balas">Balas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Bolos">Bolos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Bombons">Bombons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Brigadeiros">Brigadeiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Kits">Kits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Novidades">Novidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                            Contatos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="parallax">
+            <div class="caption">
+                <img src="./logo.png" width="430rem">
+            </div>
+        </div>
+    </header>
+    <main class="pt-2">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title titulos text-center" id="exampleModalLabel">Contatos</h1>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list">
+                            <li class="list-item">
+                                <a href="https://www.facebook.com/profile.php?id=100063809329073" class="list-item-link"
+                                    target="_blank"><i class="bi bi-facebook"> - </i>Facebook</a>
+                            </li>
+                            <li class="list-item"><a href="https://www.instagram.com/vidadoceguara/"
+                                    class="list-item-link" target="_blank"><i class="bi bi-instagram"> -
+                                    </i>Instagram</a></li>
+                            <li class="list-item"><a
+                                    href="https://api.whatsapp.com/send?phone=5512981580116&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20uma%20encomenda!"
+                                    class="list-item-link" target="_blank"><i class="bi bi-whatsapp"> - </i>Whatsapp
+                                    (Falar com
+                                    Neila)</a></li>
+                            <li class="list-item"><a
+                                    href="https://api.whatsapp.com/send?phone=5512982021635&text=Ol%C3%A1!%20Gostaria%20de%20fazer%20uma%20encomenda!"
+                                    class="list-item-link" target="_blank"><i class="bi bi-whatsapp"> - </i>Whatsapp
+                                    (Falar com
+                                    Fabiene)</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
-            <section class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="brigadeiro-foto">
-                            <img src="./images/brigadeiro-colorido-2.jpeg" class="imagem-brigadeiro">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="brigadeiro-foto">
-                            <img src="./images/brigadeiro-beijinho-2.jpeg" class="imagem-brigadeiro">
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="brigadeiro-foto">
-                            <img src="./images/brigadeiro-beijinho-3.jpeg" class="imagem-brigadeiro">
+        </div>
+        <section class="container mt-5 pt-4 pb-5 section" id="Balas">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="titulos mt-3 mb-5">Balas</h1>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-5">
+                    <img src="./images/bala-baiana.jpeg" class="imagem-bala">
+                </div>
+                <div class="col-md-3 col-sm-12 mb-5">
+                    <img src="./images/bala-baiana-2.jpeg" class="imagem-bala">
+                </div>
+                <div class="col-md-3 col-sm-12 mb-5">
+                    <img src="./images/bala-de-coco.jpeg" class="imagem-bala">
+                </div>
+                <div class="col-md-3 col-sm-12 mb-5">
+                    <img src="./images/bala-de-coco-2.jpeg" class="imagem-bala">
+                </div>
+        </section>
+        <section class="container mt-5 pt-4 pb-5 section" id="Bolos">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="titulos mt-3 mb-5">Bolos</h1>
+                </div>
+                <div class="col-md-6 mb-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block-bolo d-block" src="./images/bolo-branco.jpeg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block-bolo d-block" src="./images/red-velvet.jpeg" alt="Second slide">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+                <div class="col-md-6 mb-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block-bolo d-block" src="./images/bolo-de-cenoura-2.jpeg"
+                                    alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block-bolo d-block" src="./images/bolo-de-cenoura.jpeg"
+                                    alt="Quarter slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        <section class="container mt-5 pt-4 pb-5 section" id="Bombons">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="titulos mt-3 mb-5">Bombons</h1>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <img src="./images/bombom-cereja.jpeg" class="bombom">
+                </div>
+                <div class="col-md-4 mb-5">
+                    <img src="./images/bombom-coracao-rosa.jpeg" class="bombom">
+                </div>
+                <div class="col-md-4 mb-5">
+                    <img src="./images/coracao.jpeg" class="bombom">
+                </div>
+            </div>
+        </section>
+        <section class="container mt-5 pt-4 pb-5 section" id="Brigadeiros">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="titulos mt-3 mb-5">Brigadeiros</h1>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="height: 50%;">
+                                <img class="d-block-brigadeiro d-block" src="./images/brigadeiro-beijinho.jpeg"
+                                    alt="First slide">
+                            </div>
+                            <div class="carousel-item" style="height: 50%;">
+                                <img class="d-block-brigadeiro d-block" src="./images/brigadeiro-beijinho-2.jpeg"
+                                    alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="height: 50%;">
+                                <img class="d-block-brigadeiro d-block" src="./images/brigadeiro-beijinho-3.jpeg"
+                                    alt="First slide">
+                            </div>
+                            <div class="carousel-item" style="height: 50%;">
+                                <img class="d-block-brigadeiro d-block" src="./images/brigadeiro-beijinho-4.jpeg"
+                                    alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="height: 50%;">
+                                <img class="d-block-brigadeiro d-block" src="./images/brigadeiro-bolo-de-cenoura.jpeg"
+                                    alt="First slide">
+                            </div>
+                            <div class="carousel-item" style="height: 50%;">
+                                <img class="d-block-brigadeiro d-block" src="./images/brigadeiro-morango.jpeg"
+                                    alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" style="height: 50%;">
+                                <img class="d-block-brigadeiro d-block" src="./images/brigadeiro-colorido.jpeg"
+                                    alt="First slide">
+                            </div>
+                            <div class="carousel-item" style="height: 50%;">
+                                <img class="d-block-brigadeiro d-block" src="./images/brigadeiro-colorido-2.jpeg"
+                                    alt="Second slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mt-5 pt-4 mb-5 section" id="Kits">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="titulos mt-3 mb-5">Kits</h1>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <img src="./images/kit-te-amo.jpeg" class="kit" />
+                </div>
+                <div class="col-md-4 mb-5">
+                    <img src="./images/kit-te-amo-2.jpeg" class="kit" />
+                </div>
+                <div class="col-md-4 mb-5">
+                    <img src="./images/kit-te-amo-3.jpeg" class="kit" />
+                </div>
+            </div>
+        </section>
+        <section class="container mt-5 pt-4 section mb-5" id="Novidades">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="titulos mt-3 mb-5">Novidades</h1>
+                </div>
+                <div class="col-md-12">
+                    <h2 class="titulos mt-2 mb-5 text-left"><i class="bi bi-arrow-right-short"></i> Palitos Recheados
+                    </h2>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <img src="./images/palitos.jpeg" class="novidades" />
+                </div>
+                <div class="col-md-3 mb-5">
+                    <img src="./images/palitos-2.jpeg" class="novidades" />
+                </div>
+                <div class="col-md-3 mb-5">
+                    <img src="./images/palitos-3.jpeg" class="novidades" />
+                </div>
+                <div class="col-md-3 mb-5">
+                    <img src="./images/palitos-4.jpeg" class="novidades" />
+                </div>
+                <hr width="100%">
+                <div class="col-md-12">
+                    <h2 class="titulos mt-2 mb-5 text-left"><i class="bi bi-arrow-right-short"></i> Cones Recheados</h2>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <img src="./images/cones.jpeg" class="novidades" />
+                </div>
+                <div class="col-md-3 mb-5">
+                    <img src="./images/cone.jpeg" class="novidades" />
+                </div>
+                <div class="col-md-3 mb-5">
+                    <img src="./images/cone-kinder.jpeg" class="novidades" />
+                </div>
+                <div class="col-md-3 mb-5">
+                    <img src="./images/cone-morango.jpeg" class="novidades" />
+                </div>
+            </div>
+        </section>
+        <footer style="background-color: white;height: 15px;">
+            <h6 class="text-center pt-1 pb-1" style="font-size: medium; font-weight: bold;">Versão 1.0 - Desenvolvido
+                por <a href="https://www.instagram.com/neemias_sccp" target="_blank" style="color: #7c3269">Neemias
+                    Amaro</a></h6>
+        </footer>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -90,6 +291,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
+    <script src="./js/jquery-3.6.3.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
 </body>
 
 </html>

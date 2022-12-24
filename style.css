@@ -1,54 +1,153 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Nunito:wght@200&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
 
 body{
-    background-color: #7c3d32 !important;
+    overflow-x: hidden !important;
 }
 
-.navbar-bg{
+main{
     height: 100%;
+    background-color: #7c3269 !important;
+}
+
+.navbar-bg {
     justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #7c3269 !important;
 }
 
-.nav-item{
+.nav-item {
     font-size: 1.25rem;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
-.navbar-collapse{
-    margin-bottom: 30px;
+.nav-link {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white !important;
+    transition: all 0.25s ease-in-out;
 }
 
-#titulo{
-    font-size: 3.5rem;
+.nav-link:hover {
+    transform: translateY(-10px) scale(1.1);
+    color: black;
+}
+
+.parallax {
+    background-image: url('./images/wallpaper.png');
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-header{
+    border:none;
+}
+
+.list{
+    padding-left:  1rem;
+    list-style: none;
+}
+
+.list-item{
+    margin: 5px 0;
+}
+
+.list-item-link{
+    display: inline-block;
+    color: #0d0d0d;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.25s ease-in-out
+}
+
+.list-item-link:hover{
+    color: #7c3269;
+    transform: translateX(20px);
+}
+
+.caption{
+    position: absolute;
+    left: 0;
+    top: 29%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.titulos {
+    font-family: 'Comfortaa', cursive;
     font-weight: bold;
     text-align: center;
-    margin: 20px 0;
 }
 
-.brigadeiro-foto{
-    width: 300px;
-    height: 300px;
-}
-
-.imagem-brigadeiro{
+.imagem-bala {
+    border-radius: 100px;
     object-fit: cover;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    width: 100%;
+    height: 100%;
 }
 
-.first-section{
+.section {
     background-color: white;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    width: 90%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 95%;
     padding-bottom: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: #fff 0 2.5px 10px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 500px;
+}
+
+.d-block-bolo {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.bombom {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 100px 50px;
+}
+
+.d-block-brigadeiro {
+    border-radius: 30px;
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+}
+
+.kit {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.sombra {
+    box-shadow: #7c7c7c 0 20px 5rem;
+}
+
+.novidades{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:25px;
 }
