@@ -10,6 +10,9 @@ body{
     overflow-x: hidden !important;
 }
 
+img.logotipo{
+    width: 300px;
+}
 main{
     height: 100%;
     background-color: #7c3269 !important;
@@ -79,7 +82,7 @@ main{
 .caption{
     position: absolute;
     left: 0;
-    top: 29%;
+    top: 40%;
     width: 100%;
     text-align: center;
     color: #000;
